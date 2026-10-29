@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Unified Multi-Physics Cross-Domain Simulation Suite: Automated Verification and Cross-Parameter Sweep Pipeline for Tokamak Reactor Archiving"
+message: "If you use this simulation suite in academic or engineering research, please cite it as below."
+type: software
+authors:
+  - family-names: "Rasmussen"
+    given-names: "Jacob James"
+    orcid: "0009-0009-7084-6523"
+    affiliation: "Independent Researcher & Incoming CVTC STEM Scholar"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Rasmussen"
+      given-names: "Jacob James"
+      orcid: "0009-0009-7084-6523"
+  title: "Unified Multi-Physics Cross-Domain Simulation Suite: Automated Verification and Cross-Parameter Sweep Pipeline for Tokamak Reactor Archiving"
+  journal: "Fusion Engineering and Design"
+  publisher: "Elsevier"
+  publishing-model: "Traditional No-Fee Subscription Publishing Model"
+  year: 2026

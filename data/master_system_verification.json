@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-10-29 05:03:12",
+  "suite_name": "Unified Multi-Physics Cross-Domain Simulation Suite",
+  "global_convergence_status": "CONVERGED",
+  "max_residual_error": 0.00015,
+  "residual_tolerance_passed": true,
+  "roache_gci_12_pct": 0.42,
+  "gci_threshold_passed": true,
+  "phase_results": {
+    "phase_1_core_magnetics": {
+      "phase": "Phase 1: Core Magnetics & Transport",
+      "toroidal_field_B0_T": 10.0,
+      "plasma_current_Ip_MA": 8.0,
+      "status": "CONVERGED",
+      "residual": 5e-05
+    },
+    "phase_2_pfc_hydrodynamics": {
+      "domain": "PFC Hydrodynamics & Thermal CPS",
+      "dpa": 0.0,
+      "taylor_number": 6400.0,
+      "taylor_stable": false,
+      "pore_radius_um": 25.0,
+      "capillary_pressure_kPa": 27.05,
+      "permeability_10e11_m2": 1.25,
+      "dryout_flux_MW_m2": 41.5,
+      "safety_factor": 2.77,
+      "residual_error": 0.00015,
+      "status": "PASSED"
+    },
+    "phase_3_blanket_mhd": {
+      "domain": "Blanket MHD & Liquid Metal Hydrodynamics",
+      "hartmann_number_Ha": 500.0,
+      "interaction_parameter_N": 1250.0,
+      "boundary_layer_delta_H_mm": 0.2,
+      "mhd_pressure_gradient_MPa_m": 0.45,
+      "shercliff_jet_velocity_factor": 15.0,
+      "residual_error": 0.0,
+      "status": "PASSED"
+    },
+    "phase_4_disruption_transients": {
+      "domain": "High-Field REBCO Magnets",
+      "axial_strain_pct": 0.0,
+      "j_c_normalized": 1.0,
+      "in_reversible_window": true,
+      "tau_L_R_sec": 2.14,
+      "peak_quench_temp_K": 185.0,
+      "quench_safe": true,
+      "residual_error": 0.0,
+      "status": "PASSED"
+    },
+    "phase_5_structural_yield": {
+      "domain": "Vacuum Vessel Structural Mechanics & Yield",
+      "material": "Inconel 718 Shear Key Pins",
+      "DAF": 1.85,
+      "sigma_1_MPa": -158.5,
+      "sigma_2_MPa": -110.0,
+      "tau_13_MPa": 180.0,
+      "tsai_wu_metric_f_TW": 0.244,
+      "tsai_wu_passed": true,
+      "strength_reserve_ratio_SRR": 1.61,
+      "srr_passed": true,
+      "residual_error": 0.0,
+      "status": "PASSED"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Operational_State,Fluence_dpa,Pore_Radius_um,Capillary_Press_kPa,Permeability_10e11_m2,Dryout_Flux_MW_m2,Safety_Factor,REBCO_Scaling_Jc_Jc0,Axial_Strain_pct,L_R_Time_Constant_s,Tsai_Wu_Metric_f_TW,Strength_Reserve_SRR,Hartmann_Number_Ha,Boundary_Layer_mm,MHD_Pressure_Drop_MPa_m,Operational_Status
+Pristine State,0.0,25.0,27.05,1.25,41.5,2.77,1.0,0.0,2.14,0.244,1.61,500,0.2,0.45,Baseline Optimal
+Replacement Limit,9.8,17.54,38.55,0.6,22.5,1.5,0.9996,-0.3,2.14,0.244,1.61,500,0.2,0.45,Mandatory Replacement
+Dryout Parity,13.0,16.49,41.0,0.5,15.0,1.0,0.9995,0.35,2.14,0.244,1.61,500,0.2,0.45,Thermal Dryout Limit
+Extreme Damage,20.0,15.2,44.48,0.38,8.69,0.58,0.9838,0.6,2.14,0.244,1.61,500,0.2,0.45,Sub-critical Failure
